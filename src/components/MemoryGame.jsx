@@ -101,7 +101,6 @@ const MemoryGame = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       {/* input */}
-      {/* test */}
       <h2 className="text-2xl font-bold mb-6">Memory Game</h2>
       <div className="mb-4">
         <label htmlFor="Board Size" className="mr-3">
