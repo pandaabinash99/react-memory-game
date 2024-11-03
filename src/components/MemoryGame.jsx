@@ -114,7 +114,7 @@ const MemoryGame = () => {
           onChange={handleBoardSizeChange}
           className="border-2 border-gray-300 rounded px-3 py-1 outline-none"
         >
-          {[2, 4, 6].map((size) => (
+          {[2, 3, 4, 5, 6].map((size) => (
             <option key={size} value={size}>
               {size}
             </option>
